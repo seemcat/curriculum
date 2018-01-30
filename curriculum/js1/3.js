@@ -7,7 +7,7 @@
 
 const solution = (num, str = '', i = 0) => {
   if (i == num) return str;
-  return solution(num, str = 'hello' + str, i + 1);
+  return solution(num, 'hello' + str, i + 1);
 };
 
 module.exports = {
